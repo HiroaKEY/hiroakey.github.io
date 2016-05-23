@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+<div class="main">
+
+{% include header.html %}
+<a name="_top" id="_top"></a>
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <div class="page-scrollTop" data-toggle="tooltip" data-placement="top" title="返回顶部">
+        <a href="#_top" target="_self">
+        <!--<a href="javascript:void(0);">
+            -->
+            <div class="arrow"></div>
+            <div class="stick"></div> 
+        </a>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

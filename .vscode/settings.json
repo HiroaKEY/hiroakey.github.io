@@ -1,0 +1,11 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/_site/*": true
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "文泉驿等宽微米黑",
+    "editor.wrappingColumn": 0,
+    "editor.fontSize": 14
+}

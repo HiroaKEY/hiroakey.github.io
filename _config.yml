@@ -1,0 +1,41 @@
+permalink: /:year-:month-:day/:title/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginate_path: ":num"
+baseurl: ""
+
+ImageOnClick: |
+      <html>
+        <head>
+          <script type="text/javascript">
+            function !FN!(){
+              document.getElementById('imgBanner!FN!').src = '!PTH!/!FILE!';
+            }
+          </script>
+        </head>
+        <body> 
+          <div id="image" onClick="!FN!()">!CONTENT!<img id="imgBanner!FN!" title="!TITLE!"/> </div> 
+        </body>
+      </html>
+
+title: "The WHITE ALBUM"
+#title: "Under Construction"
+email: "outlook_0377d7ed4fcd7359@outlook.com"
+description: "音色无法调至完美 因为总能找到更好的"
+#description: "."
+github_username:  "Luglio"
+#swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
+#disqus_shortname: "rainyalley"
+
+#url: "https://hiroakey.github.io"
+#imgrepo: "https://hiroakey.github.io/static/img"
+
+url: "http://127.0.0.1:4000"
+imgrepo: "http://127.0.0.1:4000/static/img"
+gems: [jekyll-paginate]
