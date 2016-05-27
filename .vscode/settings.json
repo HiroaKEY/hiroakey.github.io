@@ -7,5 +7,6 @@
     "editor.fontLigatures": true,
     "editor.fontFamily": "文泉驿等宽微米黑",
     "editor.wrappingColumn": 0,
+    //"git.enabled": false,
     "editor.fontSize": 14
 }
